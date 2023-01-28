@@ -27,18 +27,18 @@ Implementation of a basic and private blockchain with REST APIs to expose functi
 1. Run it using the command `node app.js` (Server Listening for port: 8000)
 
 2. To create the Genesis block:
-    http://localhost:8000/block/0
+    <http://localhost:8000/block/0>
 
 3. Make the first request of ownership sending your wallet address:
-    http://localhost:8000/requestValidation
+    <http://localhost:8000/requestValidation>
 
-4. Sign the message with your Wallet using a bitcoin node or https://cryptotools.net/bitcoin and https://reinproject.org/bitcoin-signature-tool/#sign for the address and signature generation
+4. Sign the message with your Wallet using a bitcoin node or <https://cryptotools.net/bitcoin> and <https://reinproject.org/bitcoin-signature-tool/#sign> for the address and signature generation
 
 5. Submit your Star:
-    http://localhost:8000/submitstar
+    <http://localhost:8000/submitstar>
 
 6. Retrieve Stars owned by the wallet:
-    http://localhost:8000/blocks/<WALLET_ADDRESS>]
+    <http://localhost:8000/blocks/<WALLET_ADDRESS>>]
 
 7. Validate the full chain:
-    http://localhost:8000/blocks/chainValidation
+    <http://localhost:8000/blocks/chainValidation>
